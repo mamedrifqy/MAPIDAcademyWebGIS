@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+</head>
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="https://mamedrifqy.github.io/earthy-nav">Map</a> |
+    <a href="portofolio.html">Portfolio</a> |
+    <a href="https://mamedrifqy.github.io/resume">Resume</a> |
+
+</nav>
+<body>
+    <h1>My Portfolio</h1>
+    <p>Welcome to my portfolio page. Here are some WebGIS projects I have worked on:</p>
+    <ul>
+        <li>Project 1: <strong>Jakarta Isochrone</strong>
+            <ul>
+                <img src="isochrone.png" alt="Project 1 Image" />
+                <li>Image 1: Project 1 Dashboard</li>
+                <li>Project Description: This is a project developed using Python Framework (Folium - MapboxAPI) where the station location point dataset was acquired from <a href="https://jakartasatu.jakarta.go.id/geoportal">Jakarta Satu</a> data</li>
+                <li>Link: <a href="https://mamedrifqy.github.io/isochrone-terminal-jakarta">Jakarta Terminal Isochrone</a></li>
+            </ul>
+            <hr/>
+        </li>
+        <li>Project 2: <strong>Earthy-Nav</strong>
+            <ul>
+                <img src="earthy-nav1.png" alt="Project 2 Image" />
+                <li>Image 2: Project 2 Dashboard</li>
+                <li>Project Description: This is a project developed using Mapbox GL JS Framework with basemap customization using an earthy theme.</li>
+                <li>Link: <a href="https://mamedrifqy.github.io/earthy-nav">Earthy-Nav Basemap</a></li>
+            </ul>
+            <hr/>
+        </li>
+        <li>Project 3: <strong>Med-Rif Maps</strong>
+            <ul>
+                <img src="medrifmaps1.png" alt="Project 3 Image" />
+                <li>Image 3: Project 3 Dashboard</li>
+                <li>Project Description: This is another moniker for Muhammad Rifqy, with a side project involving exploration of spatial-based graphic design media.</li>
+                <li>Link: <a href="https://instagram.com/medrifmaps">medrifmaps</a></li>
+            </ul>
+            <hr/>
+        </li>
+
+    </ul>
+    <p>For more information, please contact me via email: <a href="mailto:muhammadrifqy.work@gmail.com"> muhammadrifqy.work@gmail.com</a></p>
+    <hr/>
+
+         <h1>Feedback and Suggestions</h1>
+    <hr/>
+    <form action="/submit_feedback" method="post">
+        <label for="name">Name:</label><br/>
+        <input type="text" id="name" name="name" required/><br/><br/>
+        
+        <label for="email">Email:</label><br/>
+        <input type="email" id="email" name="email" required/><br/><br/>
+        
+        <label for="feedback">Feedback and Suggestions:</label><br/>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br/><br/>
+        
+        <input type="submit" value="Send"/>
+    </form>
+</body>
+</html>
